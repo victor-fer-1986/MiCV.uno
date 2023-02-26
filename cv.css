@@ -212,6 +212,8 @@ input[type="submit"] {
     border-radius: 20px;
     
    }
+    /* lineas pie de pag*/
+   }
     .pie-pagina{
     display: flex;
     text-align: center;
@@ -224,20 +226,40 @@ input[type="submit"] {
     line-height: 50px;
     justify-content:end;
     text-transform:uppercase;
-    
+     
   }
   @media screen and (max-width:576px) {
-    .pie-pagina{height:max-content;width:100%;}
+    .pie-pagina{display:none;}
     
   }
   @media screen and (max-width:400px) {
-    .pie-pagina{font-size: 10px;}
+    .pie-pagina{font-size: 10px;}}
+.pie{
+ 
+  text-align: center;
+  display:inline-flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  line-height: 50px;
+  padding: 0px 0px;
+  border-radius: 12px;
+  display: none;
+}
+@media screen and (max-width:576px) {
+  .pie{display:block;}
+}
+  .pie-red :hover{
     
+    background-color: #034574;
+    transition: 0.5s;
   }
-
-
-  .red{
-    color: #ffffffd0;
+  .pie-pag{
+    background-color:transparent;
+    border: none;
+  }
+ 
+    .red{
+    color: #0808088e;
     line-height: 40px;
   }
 
