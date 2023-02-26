@@ -262,18 +262,13 @@ input[type="submit"] {
     color: #0808088e;
     line-height: 40px;
   }
+   .what2,
+   .face2,
+   .inst2{
 
-   .what{
-    float: left;
-    display: block;
-   }
-   .inst{
-    float: right;
-    display: block;
-   }
-   .face{
-    float: center;
-    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
    }
    /*lineas de expelab.html*/
    #experiencia{
