@@ -38,22 +38,22 @@
 
 
       <label class="etiqueta">Apellido</label>
-      <input type="text" id="nombre" name="Apellido" placeholder="Ingrese su Apellido" />
+      <input type="text" id="nombre" name="Apellido" placeholder="Ingrese su Apellido"  required autofocus />
 
       <label class="etiqueta">Edad</label>
-      <input type="number" id="nombre" name="Edad" placeholder="ingrese su edad" />
+      <input type="number" id="nombre" name="Edad" placeholder="ingrese su edad" required autofocus />
 
       <label class="etiqueta">E-mail</label>
-      <input type="email" id="email" name="E-mail" placeholder="Ingrese su E-mail" />
+      <input type="email" id="email" name="E-mail" placeholder="Ingrese su E-mail"  required autofocus />
 
       <label class="etiqueta" for="mensaje">Deje su mensaje</label>
       <textarea id="mensaje" name="mensaje"></textarea>
 
 
-      <input type="radio" name="casificacion" class="radio" value="empresa">
+      <input type="radio" name="casificacion" class="radio" value="empresa" required autofocus >
       <label class="etiqueta" for="empresa">Empresa</label>
 
-      <input type="radio" name="clasificacion" class="radio" value="particular">
+      <input type="radio" name="clasificacion" class="radio" value="particular" required autofocus >
       <label class="etiqueta" for="particular">Particular</label>
 
       <input type="submit" id="boton" value="enviar" required></input>
