@@ -113,8 +113,8 @@
 
 .barra:hover{
   color:black;
-  background-color:green;
-  box-shadow: 0 5px  hsla(241, 71%, 48%, 0.973);
+  background-color: hsla(241, 71%, 48%, 0.973);
+  box-shadow: 0 5px  black  ;
 
 .datos{
   background-color: #cccccc8e;
