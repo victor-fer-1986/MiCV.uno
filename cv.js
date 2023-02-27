@@ -7,10 +7,6 @@ document.getElementById("boton").addEventListener('click',function() {
     document.getElementById("formulario").style.backgroundColor= "rgb(26, 107, 10";
     document.getElementById("formulario").style.color="white"
 });
-document.getElementById("boton").addEventListener('click',function() {
-    document.getElementById("oculto").style.display="block"
-    document.getElementById("emoji").style.display="block"
-    document.getElementById("volver").style.display="block"
-});
+
 
    
