@@ -115,7 +115,7 @@
 
 .barra:hover{
   color:black;
-  background-color:transparent;
+  background-color:hsla(241, 71%, 48%, 0.973);
   box-shadow: 0 5px black;
   
 }
