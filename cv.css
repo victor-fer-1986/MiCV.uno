@@ -59,7 +59,7 @@
 }
 @media screen and (max-width:768px) {
       #for1,.img{ width: 90%; height: 300px;display: contents;background-color: #0f0f0f;}
-       .pie-pagina,.img1{width:150px;height: 150px;}
+       .img1{width:150px;height: 150px;}
        .body{margin: auto; padding: auto; }
        
  }      
