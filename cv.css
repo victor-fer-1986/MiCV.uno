@@ -105,11 +105,16 @@
   font-family: Arial, Helvetica, sans-serif ;
   font-size: 18px;
   color: white;
-  background-color: #0f0f0faf;
+  background-color:  hsla(241, 71%, 48%, 0.973);
   border-radius: 12px;
   padding: 7px;
   margin: 0px 40px;
 }
+
+.barra:hover{
+  color:black;
+  background-color:green;
+  box-shadow: 0 5px  hsla(241, 71%, 48%, 0.973);
 
 .datos{
   background-color: #cccccc8e;
